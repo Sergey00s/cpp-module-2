@@ -1,8 +1,10 @@
 #include "Fixed.hpp"
+#include <iostream>
 
 Fixed::Fixed()
 {
     this->fixed_value = 0;
+    this->fraction = 8;
     std::cout << "Constructer called" << std::endl;
 }
 
